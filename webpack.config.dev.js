@@ -2,10 +2,10 @@ const webpack = require("webpack");
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-process.env.NODE_ENV = "devlopment";
+process.env.NODE_ENV = "development";
 
 module.exports = {
-  mode: "devlopment",
+  mode: "development",
   target: "web",
   devtool: "cheap-module-source-map",
   entry: "./src/index",
@@ -33,7 +33,7 @@ module.exports = {
       {
         test: /\.(js|jsk)$/,
         exclude: /node_modules/,
-        use: ["bable-loader"],
+        use: ["babel-loader"],
       },
       {
         test: /(\.css)$/,
