@@ -7,10 +7,11 @@ const HomePage = () => (
     body
     inverse
     style={{
-      backgroundColor: "#333",
+      backgroundColor: "#38c74b",
       borderColor: "#333",
       color: "white",
-      borderRadius: "5px"
+      borderRadius: "5px", 
+      textAlign: "center"
     }}
 
   >
